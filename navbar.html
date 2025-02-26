@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar component</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a,
+        a::after,
+        a::before {
+            text-decoration: none;
+            color: black;
+        }
+
+        /* display */
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            list-style: none;
+        }
+   
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav>
+            <!-- logo -->
+            <figure>
+                <a href="/">
+                    <img src="" alt="logo">
+                </a>
+            </figure>
+            <!-- Navigation Links -->
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+
+</html>
