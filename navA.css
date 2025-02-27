@@ -9,56 +9,8 @@ body {
     display: flex;
     height: 100vh;
 }
-
-.sidebar {
-    width: 250px;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    
-    top: 0;
-    left: 0;
-    height: 100%;
+p {
+    border: 20px;
+    border-radius: 2px;
 }
-
-.sidebar h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.sidebar ul {
-    list-style-type: none;
-}
-
-.sidebar ul li {
-    margin: 20px 0;
-}
-
-.sidebar ul li {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-
-.content {
-    margin-left: 250px;
-    padding: 20px;
-    width: 100%;
-    
-}
-
-li:hover {
-    background-color: grey;
-}
-
-.content h1 {
-    margin-bottom: 20px;
-}
-img {
-    width: 50px;
-   border-radius: 200px;
-}
-
-
 
