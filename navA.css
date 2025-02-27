@@ -55,6 +55,10 @@ li:hover {
 .content h1 {
     margin-bottom: 20px;
 }
+img {
+    width: 50px;
+   border-radius: 200px;
+}
 
 
 
